@@ -1,0 +1,23 @@
+.todo {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 55%;
+    margin: 0 auto;
+    height: 8rem;
+    justify-content: center;
+    gap: 5%
+}
+
+.todo input {
+    outline: none;
+    width: 95%;
+    border-radius: 5%;
+}
+
+.todo button {
+    width: 40%;
+    border-radius: 5%;
+    background-color: transparent !important;
+    cursor: pointer;
+}

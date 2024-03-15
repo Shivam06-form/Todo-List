@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "title": "Cyberpunk 2077",
+    "genre": "Action RPG",
+    "platforms": ["PC", "PlayStation 5", "Xbox Series X"],
+    "release_date": "2020-12-10",
+    "image": "https://img.decrypt.co/insecure/rs:fit:1536:0:0:0/plain/https://cdn.decrypt.co/wp-content/uploads/2023/08/Decrypt-Wallpaper-Format-2023-08-22T170535.638-gID_7.png@webp",
+    "price": 59.99
+  },
+  {
+    "id": 2,
+    "title": "Resident Evil Village",
+    "genre": "Survival Horror",
+    "platforms": ["PlayStation 5", "Xbox Series X", "PC"],
+    "release_date": "2021-05-07",
+    "image": "https://wallpapercave.com/wp/wp9050752.jpg",
+    "price": 59.99
+  },
+  {
+    "id": 3,
+    "title": "Ratchet & Clank: Rift Apart",
+    "genre": "Action-Adventure",
+    "platforms": ["PlayStation 5"],
+    "release_date": "2021-06-11",
+    "image": "https://wallpapercave.com/wp/wp9250684.jpg",
+    "price": 49.99
+  },
+  {
+    "id": 4,
+    "title": "Deathloop",
+    "genre": "First-Person Shooter",
+    "platforms": ["PlayStation 5", "PC"],
+    "release_date": "2021-09-14",
+    "image": "https://images5.alphacoders.com/127/1276481.jpg",
+    "price": 59.99
+  },
+  {
+    "id": 5,
+    "title": "Halo Infinite",
+    "genre": "First-Person Shooter",
+    "platforms": ["Xbox Series X", "PC"],
+    "release_date": "2021-12-08",
+    "image": "https://images6.alphacoders.com/102/1023546.jpg",
+    "price": 39.99
+  },
+  {
+    "id": 6,
+    "title": "Horizon Forbidden West",
+    "genre": "Action RPG",
+    "platforms": ["PlayStation 5"],
+    "release_date": "2022-02-18",
+    "image": "https://images7.alphacoders.com/120/1202373.jpg",
+    "price": 69.99
+  },
+  {
+    "id": 7,
+    "title": "Elden Ring",
+    "genre": "Action RPG",
+    "platforms": ["PlayStation 5", "Xbox Series X", "PC"],
+    "release_date": "2022-02-25",
+    "image": "https://images6.alphacoders.com/131/1311862.jpeg",
+    "price": 59.99
+  },
+  {
+    "id": 8,
+    "title": "Starfield",
+    "genre": "Sci-Fi RPG",
+    "platforms": ["Xbox Series X", "PC"],
+    "release_date": "2022-11-11",
+    "image": "https://beanstalk-9fcd.kxcdn.com/wp-content/uploads/2022/10/25-1.png",
+    "price": 69.99
+  },
+  {
+    "id": 9,
+    "title": "God of War Ragnarök",
+    "genre": "Action-adventure",
+    "platforms": ["PlayStation 4", "PlayStation 5"],
+    "release_date": "November 9, 2022",
+    "image": "https://wallpapercave.com/wp/wp11484884.jpg",
+    "price": 59.99
+  },
+  {
+    "id": 10,
+    "title": "Hogwarts Legacy",
+    "genre": "Action role-playing",
+    "platforms": [
+      "Microsoft Windows",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S"
+    ],
+    "release_date": "TBA",
+    "image": "https://images8.alphacoders.com/130/1303125.jpg",
+    "price": 69.99
+  },
+  {
+    "id": 11,
+    "title": "Splatoon 3",
+    "genre": "Third-person shooter",
+    "platforms": ["Nintendo Switch"],
+    "release_date": "September 9, 2022",
+    "image": "https://images6.alphacoders.com/126/1262652.jpg",
+    "price": 59.99
+  },
+  {
+    "id": 12,
+    "title": "The Legend of Zelda: Breath of the Wild 2",
+    "genre": "Action-adventure",
+    "platforms": ["Nintendo Switch"],
+    "release_date": "TBA",
+    "image": "https://wallpapercave.com/dwp1x/wp9358366.jpg",
+    "price": 69.99
+  },
+  {
+    "id": 13,
+    "title": "Marvel's Midnight Suns",
+    "genre": "Tactical RPG",
+    "platforms": [
+      "Microsoft Windows",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S"
+    ],
+    "release_date": "October 7, 2022",
+    "image": "https://images5.alphacoders.com/124/1245975.jpg",
+    "price": 59.99
+  },
+  {
+    "id": 14,
+    "title": "Gotham Knights",
+    "genre": "Action-adventure",
+    "platforms": [
+      "Microsoft Windows",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S"
+    ],
+    "release_date": "October 25, 2022",
+    "image": "https://images2.alphacoders.com/117/1178628.jpg",
+    "price": 59.99
+  },
+  {
+    "id": 15,
+    "title": "Kirby and the Forgotten Land",
+    "genre": "Platformer",
+    "platforms": ["Nintendo Switch"],
+    "release_date": "March 25, 2023",
+    "image": "https://images3.alphacoders.com/117/1177047.jpg",
+    "price": 59.99
+  },
+  {
+    "id": 16,
+    "title": "Pokémon Scarlet and Violet",
+    "genre": "Role-playing",
+    "platforms": ["Nintendo Switch"],
+    "release_date": "November 18, 2022",
+    "image": "https://wallpapercave.com/wp/wp11270201.jpg",
+    "price": 59.99
+  }
+]
