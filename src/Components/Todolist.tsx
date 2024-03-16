@@ -8,14 +8,12 @@ interface gameInterface {
     release_date: string | undefined
 }
 
-
-
-
-
-const Todolist = ({ setList, List }: { setList: any, List: any }) => {
+const Todolist = ({ setList, List, setLoading, Loading }: { setList: any, List: any, setLoading: Function, Loading: boolean }) => {
     const [addGame, setAddGame] = useState<gameInterface>()
 
-    const url: string = 'http://localhost:4000/api/todos'
+
+    const url: any = process.env.REACT_APP_URL_PROD
+    // const url: string = 'http://localhost:4000/api/todos'
 
 
     const postOnServer = async (GAMES: any) => {
@@ -39,11 +37,12 @@ const Todolist = ({ setList, List }: { setList: any, List: any }) => {
 
     useEffect(() => {
         fetch(url).then(async (res: Response) => {
+            setLoading(true)
             const response = await (res.json())
             setList(response.Todos.reverse())
+            setLoading(false)
         })
-        console.log("DATA")
-    }, [setList]);
+    }, [setList, setLoading, url]);
 
 
 
