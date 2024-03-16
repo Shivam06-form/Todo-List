@@ -63,7 +63,7 @@ const Todolist = ({ setList, List, setLoading, Loading }: { setList: any, List: 
                     setAddGame({ release_date: addGame?.release_date, image: e.currentTarget.value, title: addGame?.title })
                 }}
             />
-            <button
+            {!Loading && <button
                 disabled={addGame?.release_date === undefined || addGame.image === undefined || addGame.title === undefined}
                 type='submit'
                 onClick={(e) => {
@@ -71,7 +71,7 @@ const Todolist = ({ setList, List, setLoading, Loading }: { setList: any, List: 
                     postOnServer(addGame)
                     setAddGame({ title: undefined, image: undefined, release_date: undefined })
                 }}
-            >SUBMIT</button>
+            >SUBMIT</button>}
         </form >
     )
 }
